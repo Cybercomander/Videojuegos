@@ -1,0 +1,12 @@
+## IDE
+/.idea
+
+## Carpetas de compilación y ejecución.
+/CimaEngine3v/
+/CimaEngine3v/_deps
+/CimaEngine3v/bin
+/CimaEngine3v/build
+*.ninja
+
+## Binarios de mi MAC
+.DS_Store
