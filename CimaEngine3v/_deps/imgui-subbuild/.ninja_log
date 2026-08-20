@@ -1,0 +1,37 @@
+# ninja log v7
+0	30	1787248727544044823	imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-mkdir	8e804369c4dd0200
+0	30	1787248727544044823	/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-mkdir	8e804369c4dd0200
+30	304814	1787249032327768952	imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-download	5a602fcfb5d44cfc
+30	304814	1787249032327768952	/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-download	5a602fcfb5d44cfc
+304814	304911	1787249032329610325	imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-update	e8f5422d4285b806
+304814	304911	1787249032329610325	/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-update	e8f5422d4285b806
+304911	304938	1787249032452310564	imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-patch	8e1c3c5adcb3ce1a
+304911	304938	1787249032452310564	/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-patch	8e1c3c5adcb3ce1a
+304938	304964	1787249032478775076	imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-configure	e4bc4a23951f6bd7
+304938	304964	1787249032478775076	/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-configure	e4bc4a23951f6bd7
+304964	304992	1787249032506454920	imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-build	b35b4584124c0a5b
+304964	304992	1787249032506454920	/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-build	b35b4584124c0a5b
+304992	305022	1787249032536466220	imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-install	c9e0abb27ffbe18f
+304992	305022	1787249032536466220	/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-install	c9e0abb27ffbe18f
+305023	305056	1787249032569876516	imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-test	5a2dc8e48288fe54
+305023	305056	1787249032569876516	/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-test	5a2dc8e48288fe54
+305056	305107	1787249032620999876	CMakeFiles/Debug/imgui-populate-complete	b17aa656a8c7675d
+305056	305107	1787249032620999876	imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-done	b17aa656a8c7675d
+305056	305107	1787249032620999876	/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-subbuild/CMakeFiles/Debug/imgui-populate-complete	b17aa656a8c7675d
+305056	305107	1787249032620999876	/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-done	b17aa656a8c7675d
+1	60	1787249548671665838	imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-update	e8f5422d4285b806
+1	60	1787249548671665838	/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-update	e8f5422d4285b806
+60	80	1787249548750087000	imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-patch	8e1c3c5adcb3ce1a
+60	80	1787249548750087000	/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-patch	8e1c3c5adcb3ce1a
+80	100	1787249548770196000	imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-configure	e4bc4a23951f6bd7
+80	100	1787249548770196000	/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-configure	e4bc4a23951f6bd7
+100	120	1787249548789768000	imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-build	b35b4584124c0a5b
+100	120	1787249548789768000	/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-build	b35b4584124c0a5b
+120	140	1787249548810347000	imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-install	c9e0abb27ffbe18f
+120	140	1787249548810347000	/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-install	c9e0abb27ffbe18f
+140	161	1787249548830873000	imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-test	5a2dc8e48288fe54
+140	161	1787249548830873000	/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-test	5a2dc8e48288fe54
+161	191	1787249548861372000	CMakeFiles/Debug/imgui-populate-complete	b17aa656a8c7675d
+161	191	1787249548861372000	imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-done	b17aa656a8c7675d
+161	191	1787249548861372000	/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-subbuild/CMakeFiles/Debug/imgui-populate-complete	b17aa656a8c7675d
+161	191	1787249548861372000	/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-done	b17aa656a8c7675d

@@ -1,0 +1,14 @@
+# Target labels
+ imgui-sfml-populate
+# Source files and their labels
+/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-sfml-subbuild/CMakeFiles/imgui-sfml-populate-Debug
+/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-sfml-subbuild/CMakeFiles/imgui-sfml-populate-(CONFIG).rule
+/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-sfml-subbuild/CMakeFiles/(CONFIG)/imgui-sfml-populate-complete.rule
+/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/(CONFIG)/imgui-sfml-populate-build.rule
+/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/(CONFIG)/imgui-sfml-populate-configure.rule
+/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/(CONFIG)/imgui-sfml-populate-download.rule
+/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/(CONFIG)/imgui-sfml-populate-install.rule
+/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/(CONFIG)/imgui-sfml-populate-mkdir.rule
+/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/(CONFIG)/imgui-sfml-populate-patch.rule
+/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/(CONFIG)/imgui-sfml-populate-test.rule
+/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/(CONFIG)/imgui-sfml-populate-update.rule

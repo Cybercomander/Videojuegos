@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-subbuild/CMakeFiles/imgui-populate-Debug"
+		},
+		{
+			"file" : "/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-subbuild/CMakeFiles/imgui-populate-(CONFIG).rule"
+		},
+		{
+			"file" : "/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-subbuild/CMakeFiles/(CONFIG)/imgui-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/(CONFIG)/imgui-populate-build.rule"
+		},
+		{
+			"file" : "/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/(CONFIG)/imgui-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/(CONFIG)/imgui-populate-download.rule"
+		},
+		{
+			"file" : "/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/(CONFIG)/imgui-populate-install.rule"
+		},
+		{
+			"file" : "/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/(CONFIG)/imgui-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/(CONFIG)/imgui-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/(CONFIG)/imgui-populate-test.rule"
+		},
+		{
+			"file" : "/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/(CONFIG)/imgui-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"imgui-populate"
+		],
+		"name" : "imgui-populate"
+	}
+}

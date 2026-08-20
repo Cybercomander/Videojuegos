@@ -1,0 +1,3 @@
+/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-sfml-subbuild/CMakeFiles/imgui-sfml-populate.dir
+/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-sfml-subbuild/CMakeFiles/edit_cache.dir
+/Users/ariel/Library/CloudStorage/OneDrive-Personal/Documentos/02 ESCOLARES/03 UNIVERSIDAD/UABC/07 Semestre/Videojuegos/Repositorio/CimaEngine3v/_deps/imgui-sfml-subbuild/CMakeFiles/rebuild_cache.dir
