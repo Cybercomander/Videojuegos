@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="RAM monitor en vivo" type="ShellScriptConfigurationType" SCRIPT_PATH="$PROJECT_DIR$/CimaEngine3v/tools/perf/ram-monitor.sh" SCRIPT_OPTIONS="" INDEPENDENT_SCRIPT_PATH="true" SCRIPT_WORKING_DIRECTORY="$PROJECT_DIR$/CimaEngine3v" INDEPENDENT_SCRIPT_WORKING_DIRECTORY="true" INTERPRETER_PATH="/bin/bash" INTERPRETER_OPTIONS="" INDEPENDENT_INTERPRETER_PATH="true" EXECUTE_IN_TERMINAL="true" EXECUTE_SCRIPT_FILE="true">
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>

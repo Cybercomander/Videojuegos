@@ -14,4 +14,7 @@ namespace IVJ {
     Alumno::~Alumno() {
         std::cout << "Se destruyo el objeto: " << nombre << "\n";
     }
+
+
+
 }

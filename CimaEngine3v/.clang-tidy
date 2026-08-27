@@ -1,0 +1,26 @@
+# Analisis estatico que CLion corre en vivo mientras escribes.
+# Solo revisa headers del motor/juego, nunca ImGui ni SFML.
+HeaderFilterRegex: '.*/src/(Motor|Juego|Main)/.*'
+
+Checks: >
+  -*,
+  bugprone-*,
+  performance-*,
+  cppcoreguidelines-pro-type-member-init,
+  cppcoreguidelines-slicing,
+  cppcoreguidelines-virtual-class-destructor,
+  modernize-use-nullptr,
+  modernize-use-override,
+  modernize-use-emplace,
+  modernize-loop-convert,
+  modernize-make-shared,
+  modernize-make-unique,
+  readability-misleading-indentation,
+  readability-redundant-member-init,
+  -bugprone-easily-swappable-parameters,
+  -bugprone-narrowing-conversions,
+  -performance-avoid-endl
+
+CheckOptions:
+  - key: performance-unnecessary-value-param.AllowedTypes
+    value: 'Vector2D'

@@ -1,5 +1,6 @@
 ## IDE
-/.idea
+/.idea/*
+!/.idea/runConfigurations/
 
 ## Carpetas de compilación y ejecución.
 CimaEngine3v/_deps/*
@@ -26,3 +27,9 @@ CimaEngine3v/cmake-build-debug/
 
 /CimaEngine3v/src/Juego/**/**/*.cpp.swp
 /CimaEngine3v/src/Motor/**/**/*.cpp.swp
+
+## Folders de build de CLion/CMake
+/CimaEngine3v/cmake-build-*/
+/CimaEngine3v/CMakeFiles/
+/CimaEngine3v/CMakeCache.txt
+/CimaEngine3v/cmake_install.cmake

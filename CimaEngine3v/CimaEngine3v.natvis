@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Vistas del depurador para los tipos propios del motor.
+  CLion las usa en la ventana Variables / Watches al depurar con LLDB.
+  Settings > Build,Execution,Deployment > Debugger > Data Views > C/C++
+  ("Enable NatVis renderers for LLDB" debe estar activo).
+-->
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+
+  <Type Name="CE::Vector2D">
+    <DisplayString>({x,g}, {y,g})</DisplayString>
+    <Expand>
+      <Item Name="x">x</Item>
+      <Item Name="y">y</Item>
+    </Expand>
+  </Type>
+
+  <Type Name="CE::Nodo&lt;*&gt;">
+    <DisplayString>{dato}</DisplayString>
+    <Expand>
+      <Item Name="dato">dato</Item>
+      <Item Name="anterior">m_prev</Item>
+      <Item Name="siguiente">m_next</Item>
+    </Expand>
+  </Type>
+
+  <Type Name="CE::Lista&lt;*&gt;">
+    <DisplayString>Lista de {size} elemento(s)</DisplayString>
+    <Expand>
+      <Item Name="[size]">size</Item>
+      <LinkedListItems>
+        <Size>size</Size>
+        <HeadPointer>m_inicio</HeadPointer>
+        <NextPointer>m_next</NextPointer>
+        <ValueNode>dato</ValueNode>
+      </LinkedListItems>
+    </Expand>
+  </Type>
+
+</AutoVisualizer>

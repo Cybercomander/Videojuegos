@@ -1,0 +1,88 @@
+{
+  "version": 6,
+  "cmakeMinimumRequired": { "major": 3, "minor": 25, "patch": 0 },
+
+  "configurePresets": [
+    {
+      "name": "base",
+      "hidden": true,
+      "generator": "Ninja",
+      "cacheVariables": {
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
+        "FETCHCONTENT_QUIET": "OFF",
+        "FETCHCONTENT_SOURCE_DIR_IMGUI": "${sourceDir}/.cache/deps/imgui-src",
+        "FETCHCONTENT_SOURCE_DIR_IMGUI-SFML": "${sourceDir}/.cache/deps/imgui-sfml-src"
+      }
+    },
+
+    {
+      "name": "Debug",
+      "displayName": "Debug",
+      "description": "Editor ImGui activo (DEBUG=1), -g -Wall -Wextra -Werror. Ejecutable en bin/Debug.",
+      "inherits": "base",
+      "binaryDir": "${sourceDir}/cmake-build-debug",
+      "cacheVariables": { "CMAKE_BUILD_TYPE": "Debug" }
+    },
+
+    {
+      "name": "Release",
+      "displayName": "Release",
+      "description": "Build optimizado -O2, sin editor (DEBUG=0). Ejecutable en bin/Release.",
+      "inherits": "base",
+      "binaryDir": "${sourceDir}/cmake-build-release",
+      "cacheVariables": { "CMAKE_BUILD_TYPE": "Release" }
+    },
+
+    {
+      "name": "RelWithDebInfo",
+      "displayName": "RelWithDebInfo",
+      "description": "Optimizado + simbolos + frame pointers. Es el perfil que hay que usar con el CPU Profiler de CLion.",
+      "inherits": "base",
+      "binaryDir": "${sourceDir}/cmake-build-relwithdebinfo",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "RelWithDebInfo",
+        "CMAKE_CXX_FLAGS_RELWITHDEBINFO": "-O2 -g -DNDEBUG -fno-omit-frame-pointer -fno-optimize-sibling-calls"
+      }
+    },
+
+    {
+      "name": "ASan",
+      "displayName": "ASan",
+      "description": "AddressSanitizer + UndefinedBehaviorSanitizer. Editor activo (DEBUG=1). Ejecutable en bin/ASan.",
+      "inherits": "base",
+      "binaryDir": "${sourceDir}/cmake-build-asan",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "ASan",
+        "CMAKE_CXX_FLAGS_ASAN": "-g -O1 -fno-omit-frame-pointer -fno-optimize-sibling-calls -fsanitize=address -fsanitize=undefined -fno-sanitize-recover=undefined -Wall -Wextra -UDEBUG -DDEBUG=1",
+        "CMAKE_EXE_LINKER_FLAGS_ASAN": "-fsanitize=address -fsanitize=undefined",
+        "CMAKE_SHARED_LINKER_FLAGS_ASAN": "-fsanitize=address -fsanitize=undefined",
+        "CMAKE_MODULE_LINKER_FLAGS_ASAN": "-fsanitize=address -fsanitize=undefined",
+        "CMAKE_MAP_IMPORTED_CONFIG_ASAN": "ASan;RelWithDebInfo;Debug;Release;"
+      }
+    }
+  ],
+
+  "buildPresets": [
+    { "name": "Debug",          "configurePreset": "Debug",          "targets": ["CimaEngine3v"] },
+    { "name": "Release",        "configurePreset": "Release",        "targets": ["CimaEngine3v"] },
+    { "name": "RelWithDebInfo", "configurePreset": "RelWithDebInfo", "targets": ["CimaEngine3v"] },
+    { "name": "ASan",           "configurePreset": "ASan",           "targets": ["CimaEngine3v"] }
+  ],
+
+  "workflowPresets": [
+    {
+      "name": "Debug",
+      "steps": [
+        { "type": "configure", "name": "Debug" },
+        { "type": "build",     "name": "Debug" }
+      ]
+    },
+    {
+      "name": "Release",
+      "steps": [
+        { "type": "configure", "name": "Release" },
+        { "type": "build",     "name": "Release" }
+      ]
+    }
+  ]
+}
