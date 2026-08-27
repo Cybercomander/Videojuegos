@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Instruments RAM Allocations" type="ShellScriptConfigurationType" SCRIPT_PATH="$PROJECT_DIR$/CimaEngine3v/tools/perf/instruments.sh" SCRIPT_OPTIONS="&quot;Allocations&quot; RelWithDebInfo" INDEPENDENT_SCRIPT_PATH="true" SCRIPT_WORKING_DIRECTORY="$PROJECT_DIR$/CimaEngine3v" INDEPENDENT_SCRIPT_WORKING_DIRECTORY="true" INTERPRETER_PATH="/bin/bash" INTERPRETER_OPTIONS="" INDEPENDENT_INTERPRETER_PATH="true" EXECUTE_IN_TERMINAL="false" EXECUTE_SCRIPT_FILE="true">
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>

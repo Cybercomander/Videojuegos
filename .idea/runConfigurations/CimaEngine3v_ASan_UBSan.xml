@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="CimaEngine3v ASan UBSan" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CimaEngine3v" TARGET_NAME="CimaEngine3v" CONFIG_NAME="ASan" RUN_TARGET_PROJECT_NAME="CimaEngine3v" RUN_TARGET_NAME="CimaEngine3v" WORKING_DIR="file://$PROJECT_DIR$/CimaEngine3v">
+    <envs>
+      <env name="MallocNanoZone" value="0" />
+      <env name="ASAN_OPTIONS" value="detect_stack_use_after_return=1:abort_on_error=0:strict_string_checks=1:check_initialization_order=1" />
+      <env name="UBSAN_OPTIONS" value="print_stacktrace=1" />
+    </envs>
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>

@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="CimaEngine3v Debug" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CimaEngine3v" TARGET_NAME="CimaEngine3v" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CimaEngine3v" RUN_TARGET_NAME="CimaEngine3v" WORKING_DIR="file://$PROJECT_DIR$/CimaEngine3v">
+    <envs>
+    </envs>
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>
