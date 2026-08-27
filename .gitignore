@@ -1,12 +1,34 @@
 ## IDE
-/.idea
+/.idea/*
+!/.idea/runConfigurations/
 
 ## Carpetas de compilación y ejecución.
-/CimaEngine3v/
-/CimaEngine3v/_deps
+CimaEngine3v/_deps/*
 /CimaEngine3v/bin
 /CimaEngine3v/build
 *.ninja
 
 ## Binarios de mi MAC
 .DS_Store
+
+##gitignore del repo origin
+/CimaEngine3v/imgui.ini
+/CimaEngine3v/compile_commands.json
+
+/CimaEngine3v/.cache/*
+
+/CimaEngine3v/**/.DS_Store
+/CimaEngine3v/**/**/.DS_Store
+/CimaEngine3v/assets/.DS_Store
+/CimaEngine3v/assets/sprites/.DS_Store
+/CimaEngine3v/src/.DS_Store
+/CimaEngine3v/src/Motor/.DS_Store
+
+/CimaEngine3v/src/Juego/**/**/*.cpp.swp
+/CimaEngine3v/src/Motor/**/**/*.cpp.swp
+
+## Folders de build de CLion/CMake
+/CimaEngine3v/cmake-build-*/
+/CimaEngine3v/CMakeFiles/
+/CimaEngine3v/CMakeCache.txt
+/CimaEngine3v/cmake_install.cmake
