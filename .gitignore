@@ -5,6 +5,7 @@
 CimaEngine3v/_deps/*
 /CimaEngine3v/bin
 /CimaEngine3v/build
+CimaEngine3v/cmake-build-debug/
 *.ninja
 
 ## Binarios de mi MAC
