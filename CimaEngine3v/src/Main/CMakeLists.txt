@@ -7,8 +7,8 @@ add_executable(CimaEngine3v main.cpp)
 if(NOT WIN32)
 add_custom_command(
     TARGET CimaEngine3v POST_BUILD
-    COMMAND ${CMAKE_COMMAND} -E copy
-    ${CMAKE_SOURCE_DIR}/build/compile_commands.json # fuente
+    COMMAND ${CMAKE_COMMAND} -E copy_if_different
+    ${CMAKE_BINARY_DIR}/compile_commands.json # fuente (sirve para cualquier folder de build)
     ${CMAKE_SOURCE_DIR}/compile_commands.json                           # destino
     COMMENT "copiando compile_commands.json "
     )

@@ -1,0 +1,28 @@
+# Estilo del motor: llaves Allman, 4 espacios, namespaces indentados.
+# CLion lo detecta solo (Settings > Editor > Code Style > "Enable ClangFormat").
+BasedOnStyle: LLVM
+Language: Cpp
+Standard: c++17
+
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ColumnLimit: 120
+
+BreakBeforeBraces: Allman
+NamespaceIndentation: All
+AccessModifierOffset: -4
+IndentCaseLabels: true
+
+PointerAlignment: Left
+ReferenceAlignment: Left
+SpaceAfterTemplateKeyword: false
+AlwaysBreakTemplateDeclarations: No
+
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+
+# No reordenar includes: en este proyecto el orden importa (SFML/ImGui).
+SortIncludes: false
+IncludeBlocks: Preserve
